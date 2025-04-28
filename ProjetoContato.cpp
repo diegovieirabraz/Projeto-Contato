@@ -104,7 +104,7 @@ int main() {
         cin >> mes;
         cout << "Digite o ano de nascimento: ";
         cin >> ano;
-        cin.ignore(); // Limpar o '\n' que ficou no buffer
+        cin.ignore(); 
 
         Data dataNasc(dia, mes, ano);
         contatos[i] = Contato(email, nome, telefone, dataNasc);
